@@ -38,7 +38,7 @@
   <script type="text/javascript">
     var clockFace = "<%= face  %>"; // can now be used in scripts
 
-    var parts = (location.search || '?').substring(1).split('&');
+    var parts = (location.search || '?').substring(1).split('&');//comment here
     var token = '';
     parts.forEach(function(val) {
       if (val.startsWith('token=')) {
